@@ -1,0 +1,13 @@
+function [nomeGesto] = nameGesture(index)
+% Restituisce il nome del gesto in base al suo indice
+
+gesti = ["A", "B", "C", "D", "E", "F", ...
+    "1", "2", "3", "4", "5", "6", ...
+    "GO", "COME", "NO", "STOP", "TURN LEFT", "TURN RIGHT", ...
+    "STAND UP", "SIT DOWN", "ROTATE", "TURN OVER", "HAND UP", "HELLO", ...
+    "UNDEFINED"];
+
+nomeGesto = gesti(index+1);
+    
+end
+
